@@ -1,7 +1,26 @@
+:root{
+    --brand-blue: #2196F3;
+    --logo-font: "Roboto", sans-serif;
+    --text-font: "Raleway", sans-serif;
+}
+body{
+    font-family: var(--text-font);
+    color: black;
+}
 .buttons{
     font-size: 1,625;
-     line-height: 2.5;
+    line-height: 2.5;
     padding: 0 20px;
     text-align: center;
-    color: #F5F4FA;
+    color: black;
+    border: none;
     }
+.buttons:hover{
+    background-color: var(--brand-blue);
+    color: white;
+    border: none;
+}
+/* .buttons:focus{
+    color: white;
+    background-color: var(--brand-blue);
+} */
