@@ -8,9 +8,7 @@ body{
     font-weight: 400;
     color: black;
 }
-ul li::marker{
-    color: transparent;
-}
+
 .header-top{
     /* position: absolute; */
 }
@@ -36,20 +34,49 @@ ul li::marker{
 .buttons{
     font-size: 1,625;
     line-height: 2.5;
-    padding: 0 20px;
+    /* padding: 0 20px; */
     text-align: center;
     color: black;
     border: none;
+    cursor: pointer;
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.03em;
     }
 .buttons:hover{
     background-color: var(--brand-blue);
     color: white;
     border: none;
+    cursor: pointer;
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 /* .buttons:focus{
     color: white;
     background-color: var(--brand-blue);
 } */
+.pictures-menu{
+    list-style: none;
+    }
+.main-menu-header{
+    font-family: var(--text-font);
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.main-menu-text{
+    font-family: var(--text-font);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 .footer-box{
     background-color: #2F303A;
 }
