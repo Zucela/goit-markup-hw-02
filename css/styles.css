@@ -23,6 +23,7 @@ body{
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.02em;
+    line-height: 1.172x;
     list-style: none;
     text-decoration: none;
     }
@@ -34,6 +35,7 @@ body{
     font-weight: 500;
     font-style: normal;
     letter-spacing: 0.02em;
+    line-height: 1.172x;
     list-style: none;
     color: var(--brand-blue);
     text-decoration: none;
@@ -45,6 +47,7 @@ body{
     font-style: normal;
     text-decoration: none;
     letter-spacing: 0.02em;
+    line-height: 1.172x;
     list-style: none;
     color: var(--main-grey);
 }
@@ -56,6 +59,7 @@ body{
     font-style: normal;
     text-decoration: none;
     letter-spacing: 0.02em;
+    line-height: 1.172x;
     list-style: none;
     color: var(--brand-blue);
 }
@@ -70,6 +74,7 @@ body{
     font-style: normal;
     font-weight: 700;
     text-decoration: none;
+    line-height: 1.383x;
 }
 .logo-studio{
     color: black;
@@ -79,6 +84,7 @@ body{
     font-style: normal;
     font-weight: 700;
     text-decoration: none;
+    line-height: 1.383x;
 }
 /* Style do index main */
 .div-main{
@@ -89,7 +95,7 @@ body{
     font-family: var(--text-font);
     font-weight: 900;
     letter-spacing: 00.06em;
-    line-height: 1.364;
+    line-height: 1.364x;
     color: var(--white);
 }
 .button-main{
@@ -99,14 +105,15 @@ body{
     letter-spacing: 00.06em;
     color: var(--white);
     background-color: var(--brand-blue);
+    line-height: 1.875x;
 }
 /* Style do buttons porfolio */
 .buttons-list{
     list-style: none;
 }
 .buttons{
-    font-size: 1,625;
-    line-height: 2.5;
+    font-size: 16px;
+    line-height: 1.625x;
     /* padding: 0 20px; */
     text-align: center;
     color: var(--main-black);
@@ -127,6 +134,7 @@ body{
     font-size: 16px;
     font-style: normal;
     letter-spacing: 0.03em;
+    line-height: 1.625x;
 }
 .pictures-menu{
     list-style: none;
@@ -137,6 +145,7 @@ body{
     font-weight: 700;
     letter-spacing: 0.06em;
     color: var(--main-black);
+    line-height: 2x;
 }
 .main-menu-text{
     font-family: var(--text-font);
@@ -144,6 +153,7 @@ body{
     font-weight: 400;
     letter-spacing: 0.03em;
     color: var(--main-grey);
+    line-height: 1.875x;
 }
 /* style do index nasze atuty */
 .atuty-main{
@@ -152,6 +162,7 @@ body{
     font-weight: 700;
     letter-spacing: 0.03em;
     color: var(--main-black);
+    line-height: 1.172x;
 }
 .atuty-text{
     font-family: var(--text-font);
@@ -159,6 +170,7 @@ body{
     font-weight: 400;
     letter-spacing: 0.03em;
     color: var(--main-grey);
+    line-height: 1.714x;
 }
 /* style do index (czym się zajmuje )  */
 .text-h2{
@@ -167,6 +179,7 @@ body{
     font-weight: 700;
     letter-spacing: 0.03em;
     color: var(--main-black);
+    line-height: 1.172x;
 }
 /* styles index nasz zespół */
 .team-name{
@@ -175,6 +188,7 @@ body{
     font-weight: 500;
     letter-spacing: 0.03em;
     color: var(--main-black);
+    line-height: 1.172x;
 }
 .team-position{
     font-family: var(--text-font);
@@ -182,6 +196,7 @@ body{
     font-weight: 400;
     letter-spacing: 0.03em;
     color: var(--main-grey);
+    line-height: 1.172x;
 }
 /* style do footer */
 .footer-box{
@@ -194,6 +209,7 @@ body{
     letter-spacing: 0.03em;
     font-weight: 700;
     text-decoration: none;
+    line-height: 1.174x;
 }
 .footer-address{
     color: var(--white);
@@ -202,6 +218,7 @@ body{
     font-size: 14px;
     font-style: normal;
     letter-spacing: 0.03em;
+    line-height: 1.714x;
 }
 .footer-link{
     color: var(--footer-contact-col);
@@ -210,6 +227,7 @@ body{
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
+    line-height: 1.714x;
     /* text-decoration: underline; */
 }
 .footer-link:hover,
@@ -221,4 +239,5 @@ body{
     font-size: 14px;
     font-style: normal;
     letter-spacing: 0.03em;
+    line-height: 1.714x;
 }
